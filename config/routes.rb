@@ -8,7 +8,7 @@ Omrails::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
   get 'about' => 'pages#about'
   # You can have the root of your site routed with "root"
-  root :to => 'pages#home'
+  root :to => 'pins#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
