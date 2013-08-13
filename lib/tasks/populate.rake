@@ -4,7 +4,7 @@ namespace :db do
     6.times do |n|
       puts "[DEBUG] creating user #{n+1} of 10"
       name = Faker::Name.name
-      email = "test-user-#{n+1}@example.com"
+      email = "heroku-test-user-#{n+1}@example.com"
       password = "password"
       User.create!( name: name,
                     email: email,
